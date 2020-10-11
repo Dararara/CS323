@@ -1,4 +1,4 @@
-make
+make splc
 
 ./bin/splc testm/test_1_r01.spl
 diff exout/test_1_r01.out testm/test_1_r01.out
@@ -35,3 +35,19 @@ diff exout/test_1_r11.out testm/test_1_r11.out
 
 ./bin/splc testm/test_1_r12.spl 
 diff exout/test_1_r12.out testm/test_1_r12.out
+./bin/splc test/test_11710324_1.spl 
+./bin/splc test/test_11710324_2.spl 
+./bin/splc test/test_11710324_3.spl 
+./bin/splc test/test_11710324_4.spl 
+./bin/splc test/test_11710324_5.spl 
+
+
+./bin/splc test-ex/test_1.spl
+./bin/splc test-ex/test_2.spl
+./bin/splc test-ex/test_3.spl
+./bin/splc test-ex/test_4.spl
+./bin/splc test-ex/test_5.spl
+diff test-ex/test_1.out test-ex/test_2.out
+diff test-ex/test_1.out test-ex/test_3.out
+diff test-ex/test_1.out test-ex/test_4.out
+diff test-ex/test_1.out test-ex/test_5.out 

@@ -39,35 +39,35 @@
 %token  <Node> FLOAT  
 %token  <Node> CHAR    
 %token  <Node> ID      
-%token  <Node> TYPE    // int | float | char
-%token  <Node> STRUCT  // struct
-%token  <Node> IF      // if
-%token  <Node> ELSE    // else
-%token  <Node> WHILE   // while
-%token  <Node> RETURN  // return
-%token  <Node> DOT     // .
-%token  <Node> SEMI    // ;
-%token  <Node> COMMA   // ,
-%token  <Node> ASSIGN  // =
-%token  <Node> LT      // <
-%token  <Node> LE      // <=
-%token  <Node> GT      // >
-%token  <Node> GE      // >=
-%token  <Node> NE      // !=
-%token  <Node> EQ      // ==
-%token  <Node> PLUS    // +
-%token  <Node> MINUS   // -
-%token  <Node> MUL     // *
-%token  <Node> DIV     // /
-%token  <Node> AND     // &&
-%token  <Node> OR      // ||
-%token  <Node> NOT     // !
-%token  <Node> LP      // (
-%token  <Node> RP      // )
-%token  <Node> LB      // [
-%token  <Node> RB      // ]
-%token  <Node> LC      // {
-%token  <Node> RC      // }
+%token  <Node> TYPE
+%token  <Node> STRUCT
+%token  <Node> IF
+%token  <Node> ELSE
+%token  <Node> WHILE
+%token  <Node> RETURN
+%token  <Node> DOT
+%token  <Node> SEMI
+%token  <Node> COMMA
+%token  <Node> ASSIGN
+%token  <Node> LT
+%token  <Node> LE
+%token  <Node> GT
+%token  <Node> GE
+%token  <Node> NE
+%token  <Node> EQ
+%token  <Node> PLUS
+%token  <Node> MINUS
+%token  <Node> MUL
+%token  <Node> DIV
+%token  <Node> AND
+%token  <Node> OR
+%token  <Node> NOT
+%token  <Node> LP
+%token  <Node> RP
+%token  <Node> LB
+%token  <Node> RB
+%token  <Node> LC
+%token  <Node> RC
 %token  <Node> ERROR
 %token  <Node> WRONG_CHAR
 
