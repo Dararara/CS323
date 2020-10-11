@@ -1,0 +1,12 @@
+// 多行符号, 但是在单行里面
+
+
+
+
+int test_1_m01(int a, int b)
+{
+  int code, new;
+  code = 1; /***这什么题啊, 好难搞***/
+  new = code + 1;
+  return hello(code, new);
+}

@@ -1,0 +1,133 @@
+Program (1)
+  ExtDefList (1)
+    ExtDef (1)
+      Specifier (1)
+        TYPE: int
+      FunDec (1)
+        ID: test_1_m01
+        LP
+        VarList (1)
+          ParamDec (1)
+            Specifier (1)
+              TYPE: int
+            VarDec (1)
+              ID: a
+          COMMA
+          VarList (1)
+            ParamDec (1)
+              Specifier (1)
+                TYPE: int
+              VarDec (1)
+                ID: b
+        RP
+      CompSt (2)
+        LC
+        DefList (3)
+          Def (3)
+            Specifier (3)
+              TYPE: int
+            DecList (3)
+              Dec (3)
+                VarDec (3)
+                  ID: code
+              COMMA
+              DecList (3)
+                Dec (3)
+                  VarDec (3)
+                    ID: new
+            SEMI
+        StmtList (4)
+          Stmt (4)
+            Exp (4)
+              Exp (4)
+                ID: code
+              ASSIGN
+              Exp (4)
+                INT: 1
+            SEMI
+          StmtList (5)
+            Stmt (5)
+              Exp (5)
+                Exp (5)
+                  ID: new
+                ASSIGN
+                Exp (5)
+                  INT: 1
+              SEMI
+            StmtList (6)
+              Stmt (6)
+                Exp (6)
+                  Exp (6)
+                    ID: code
+                  ASSIGN
+                  Exp (6)
+                    Exp (6)
+                      ID: code
+                    PLUS
+                    Exp (6)
+                      ID: new
+                SEMI
+              StmtList (7)
+                Stmt (7)
+                  Exp (7)
+                    Exp (7)
+                      ID: new
+                    ASSIGN
+                    Exp (7)
+                      Exp (7)
+                        Exp (7)
+                          Exp (7)
+                            LP
+                            Exp (7)
+                              Exp (7)
+                                ID: code
+                              PLUS
+                              Exp (7)
+                                ID: code
+                            RP
+                          MUL
+                          Exp (7)
+                            ID: code
+                        MINUS
+                        Exp (7)
+                          ID: new
+                      PLUS
+                      Exp (7)
+                        MINUS
+                        Exp (7)
+                          Exp (7)
+                            ID: code
+                          LB
+                          Exp (7)
+                            INT: 10
+                          RB
+                  SEMI
+                StmtList (8)
+                  Stmt (8)
+                    Exp (8)
+                      Exp (8)
+                        ID: new
+                      ASSIGN
+                      Exp (8)
+                        Exp (8)
+                          ID: code
+                        PLUS
+                        Exp (8)
+                          INT: 1
+                    SEMI
+                  StmtList (9)
+                    Stmt (9)
+                      RETURN
+                      Exp (9)
+                        ID: hello
+                        LP
+                        Args (9)
+                          Exp (9)
+                            CHAR: 'x'
+                          COMMA
+                          Args (9)
+                            Exp (9)
+                              ID: new
+                        RP
+                      SEMI
+        RC

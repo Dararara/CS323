@@ -1,0 +1,12 @@
+// 奇怪的多行测试
+/***
+*** 哦, 这真是太糟糕了
+*** 简直比隔壁梅森太太家的苹果派还要糟糕
+***/
+int test_1_m01(int a, int b)
+{
+  int code, new;
+  code = 1;
+  new = code + 1;
+  return hello(code, new);
+}

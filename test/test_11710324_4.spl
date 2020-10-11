@@ -1,0 +1,9 @@
+int test_1_m01(int a, int b)
+{
+  int code, new;
+  code = 0xf0;
+  new = 0xzz;
+  new = $ + new - 0xkkk;
+
+  return hello('a, new);
+}

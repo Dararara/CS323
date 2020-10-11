@@ -1,0 +1,13 @@
+//单行测试
+
+
+
+
+int test_1_m01(int a, int b)
+{
+  int code, new;
+  code = 1;//嘤嘤嘤
+  new = code + 1;
+  return hello(code, new);
+} //哭哭
+// 写不完了

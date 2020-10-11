@@ -1,0 +1,4 @@
+Error type A at Line 5: unknown lexeme 0xzz
+Error type A at Line 6: unknown lexeme $
+Error type A at Line 6: unknown lexeme 0xkkk
+Error type B at Line 8: Missing closing '

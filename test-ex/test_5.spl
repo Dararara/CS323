@@ -1,0 +1,12 @@
+// 混合测试
+/* 搞不定惹
+//气哭了
+*** 写不出来
+*/
+int test_1_m01(int a, int b)
+{
+  int code, new;
+  code = 1;
+  new = code + 1;
+  return hello(code, new);
+}

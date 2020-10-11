@@ -1,0 +1,15 @@
+// 多行测试
+/*
+这是什么project啊, 我每次考试都过不了那个平均分啊
+*/
+
+int test_1_m01(int a, int b)
+{
+  int code, new;
+  code = 1;
+  new = code + 1;
+  return hello(code, new);
+}
+/*
+放弃治疗了
+*/
